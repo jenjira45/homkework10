@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    background-color: rgb(249, 214, 154);
+  }
+  
+  .counter {
+    margin-top: 8px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    background: rgb(196, 107, 187);
+  
+  }
+  
+  .counter > * {
+    height: 100%;
+    flex:1;
+    font-size: 32px;
+  }
+  .suninfo{ 
+    text-align: center;
+  }
+  
+  .app{
+    text-align: center;
+    
+    width: 100%;
+    height: 50px;
+  }
+  
